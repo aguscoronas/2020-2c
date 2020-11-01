@@ -479,11 +479,11 @@ TerniLapilli class
 
 !TerniLapilli class methodsFor: 'Error' stamp: 'nt 10/31/2020 19:42:51'!
 gameIsOver
-^'El juego ya terminÛ'.! !
+^'El juego ya termin√≥'.! !
 
 !TerniLapilli class methodsFor: 'Error' stamp: 'nt 11/1/2020 17:58:20'!
 invalidBoardStateErrorDescription
-^'Movimiento inv·lido.'! !
+^'Movimiento inv√°lido.'! !
 
 !TerniLapilli class methodsFor: 'Error' stamp: 'nt 10/31/2020 16:14:21'!
 invalidPlayerErrorDescription	
@@ -491,13 +491,13 @@ invalidPlayerErrorDescription
 
 !TerniLapilli class methodsFor: 'Error' stamp: 'nt 10/31/2020 18:19:43'!
 maxAmountOfTokenExedeed
-^'La cantidad m·xima de fichas por jugador es 3'.! !
+^'La cantidad m√°xima de fichas por jugador es 3'.! !
 
 !TerniLapilli class methodsFor: 'Error' stamp: 'nt 10/31/2020 16:22:58'!
 occupiedPositionErrorDescription
-	^'La posiciÛn ya est· ocupada'! !
+	^'La posici√≥n ya est√° ocupada'! !
 
 !TerniLapilli class methodsFor: 'Error' stamp: 'nt 10/31/2020 17:37:45'!
 positionOutsideBoardLimits
 	
-	^'La posiciÛn est· fuera de los lÌmites del tablero'! !
+	^'La posici√≥n est√° fuera de los l√≠mites del tablero'! !
