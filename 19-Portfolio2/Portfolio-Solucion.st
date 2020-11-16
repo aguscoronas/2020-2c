@@ -336,7 +336,7 @@ report := AccountSummaryReport for:account1.
 text:= report generateReport.
 self assert: (text size=2).
 self assert:(text anySatisfy: [:a | a='Balance = 100']).
-self assert:(text anySatisfy: [:a | a='Dep髎ito por 100'.]).
+self assert:(text anySatisfy: [:a | a='Dep贸sito por 100'.]).
 
 
 
@@ -354,8 +354,8 @@ report := AccountSummaryReport for:account1.
 text:= report generateReport.
 self assert: (text size=3).
 self assert:(text anySatisfy: [:a | a='Balance = 0']).
-self assert:(text anySatisfy: [:a | a='Dep髎ito por 100'.]).
-self assert:(text anySatisfy: [:a | a='Extracci髇 por 100'.]).
+self assert:(text anySatisfy: [:a | a='Dep贸sito por 100'.]).
+self assert:(text anySatisfy: [:a | a='Extracci贸n por 100'.]).
 
 
  ! !
@@ -1057,12 +1057,12 @@ reportDebitTransfer:aDebit
 !AccountSummaryReport methodsFor: 'as yet unclassified' stamp: 'nt 11/15/2020 15:23:16'!
 reportDeposit:aDeposit
 	
-	reportText add:'Dep髎ito por ', aDeposit value asString.! !
+	reportText add:'Dep贸sito por ', aDeposit value asString.! !
 
 !AccountSummaryReport methodsFor: 'as yet unclassified' stamp: 'nt 11/15/2020 15:28:27'!
 reportWithdraw:aWithdraw
 	
-	reportText add:'Extracci髇 por ', aWithdraw value asString.! !
+	reportText add:'Extracci贸n por ', aWithdraw value asString.! !
 
 "-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- "!
 
