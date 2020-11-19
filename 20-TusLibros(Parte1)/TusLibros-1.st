@@ -115,7 +115,7 @@ ISBNisNotInCatalogueErrorDescription
 
 !Cart class methodsFor: 'as yet unclassified' stamp: 'nt 11/18/2020 18:13:36'!
 expiredTimeErrorMessage
-	'El tiempo para agregar productos al carrito expiró'! !
+	'El tiempo para agregar productos al carrito expirÃ³'! !
 
 !Cart class methodsFor: 'as yet unclassified' stamp: 'nt 11/18/2020 17:05:50'!
 invalidQuantityOfProductsErrorDescription
