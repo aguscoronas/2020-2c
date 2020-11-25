@@ -607,7 +607,7 @@ Cashier class
 
 !Cashier class methodsFor: 'as yet unclassified' stamp: 'nt 11/21/2020 17:04:58'!
 checkoutWithEmptyCartErrorDescription
-	'El carrito est· vacio. No hay productos para procesar'! !
+	'El carrito est√° vacio. No hay productos para procesar'! !
 
 !Cashier class methodsFor: 'as yet unclassified' stamp: 'nt 11/22/2020 15:55:50'!
 expiredCreditCardErrorDescription
